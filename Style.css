@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.main{
+    /* background-color: blue; */
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.box{
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 5px 0;
+}
+#notask{
+    color: #888;
+    display: none;
+}
+#tasklist{
+    list-style: none;
+    padding: 0;  
+}
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+  }
+
+  .task-item .completed {
+    text-decoration: line-through;
+    color: red;
+  }
